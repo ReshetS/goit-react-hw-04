@@ -9,8 +9,8 @@ export default function ImageCard({ image }) {
         alt={image.alt_description}
       />
       <ul className={style.info}>
-        <li className={style.author}>Author: {image.user.name}</li>
-        <li className={style.likes}>Likes: {image.likes}</li>
+        <li className={style.author}>By {image.user.name}</li>
+        <li className={style.likes}>❤️ {image.likes}</li>
       </ul>
     </div>
   );
