@@ -1,5 +1,4 @@
 import { RotatingLines } from "react-loader-spinner";
-import style from "./Loader.module.css";
 
 export default function Loader() {
   return (
@@ -11,8 +10,6 @@ export default function Loader() {
       strokeWidth="5"
       animationDuration="0.75"
       ariaLabel="rotating-lines-loading"
-      wrapperStyle={{}}
-      wrapperClass={style.loader}
     />
   );
 }
